@@ -1,4 +1,23 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pos {
+  right: 44%;
+  top: -5%;
+}
+
+.grid-map {
+  grid-template-columns: repeat(14, minmax(0, 1fr));
+  grid-template-rows: repeat(9, minmax(0, 1fr));
+  row-gap: 4px;
+}
+.h-w{
+  height: 29rem;
+  width: 46rem;
+}
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -23,4 +42,4 @@ a {
     color: white;
     background: black;
   }
-}
+} */
